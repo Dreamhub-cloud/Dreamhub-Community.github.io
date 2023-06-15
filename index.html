@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DreamHub - Your No 1 Tutorial Site</title>
+     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="">WELCOME</a></li>
+                   <li><a href="">CATEGORIES</a></li>
+                   <li><a href="">GEEK ROOM</a></li>
+                   <li><a href="">BLOG STATION</a></li>
+                   <li><a href="">CONTACT US</a></li>
+               </ul> 
+            </div>
+            <i class="fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>Welcome to DreamHub</h1>
+    <p>The frst website with promise, Study engages are most
+        in the digital and entrepreneurship level. It's the best site
+        to start your digital<br> DON'T MISS OUT.
+    </p>
+    <a href="" class="hero-btn">Get Started</a>
+</div>
+
+
+    </section>
+
+    <!-----Javascript for Toggle Menu----->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

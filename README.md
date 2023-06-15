@@ -1,6 +1,18 @@
 # Project-01
 Full web build
 
+
+About Dream~Hub 
+Dreamhub is an online community of Tech-driven initiatives designed to reduce complexity in the rate & process of digital tech learning for youngsters.
+
+
+Vision : To be a fully dev
+
+Mission : To provide easy digital skill acquisitions measures and better tech consultations services for designated age and censored platforms that will enable accurate directional form of academics within the environment.
+
+
+
+
 DREAM-HUB
 
 Well, it’s basically borne out of the idea of making digital skill education easier and tech consultations easier and faster to the consumer
